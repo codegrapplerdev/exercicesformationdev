@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url(fontpro.css);
+
+
+:root{
+   /* --primary: hsl(225, 29%, 22%, 0.65);
+    --secondary: hsl(196, 8%, 56%, 0.65) ;*/
+
+    --primary: hsla(225, 29%, 22%, 0.65);
+    --secondary: hsla(196, 8%, 56%, 0.65) ;
+}
+
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: "Source Sans Pro";
+    font-size: 4.5rem;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    place-content: center;
+
+
+    /* background: url('./1960763.jpg') no-repeat center; */
+   /* background-image: url('./1960763.jpg'); */
+
+   background: linear-gradient(135deg, var(--primary), var(--secondary)),
+            url('./1960763.jpg') no-repeat center;
+}
+
+p {
+    text-align: center;
+}
+
+
+/*
+ul {
+   
+   list-style: none;
+   text-align: center;
+    
+} */
+
+.menu {text-align: center;}
+.menu ul {display: inline-table;}
+.menu li {display: inline; font-size:x-large}
